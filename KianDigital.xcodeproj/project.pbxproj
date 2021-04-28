@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		096F8C26263971FD00ECE98C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096F8C25263971FD00ECE98C /* AppDelegate.swift */; };
+		096F8C28263971FD00ECE98C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096F8C27263971FD00ECE98C /* SceneDelegate.swift */; };
+		096F8C2A263971FD00ECE98C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096F8C29263971FD00ECE98C /* ContentView.swift */; };
+		096F8C2C263971FF00ECE98C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 096F8C2B263971FF00ECE98C /* Assets.xcassets */; };
+		096F8C2F263971FF00ECE98C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 096F8C2E263971FF00ECE98C /* Preview Assets.xcassets */; };
+		096F8C32263971FF00ECE98C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 096F8C30263971FF00ECE98C /* LaunchScreen.storyboard */; };
+		096F8C3D263971FF00ECE98C /* KianDigitalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096F8C3C263971FF00ECE98C /* KianDigitalTests.swift */; };
+		096F8C48263971FF00ECE98C /* KianDigitalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096F8C47263971FF00ECE98C /* KianDigitalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		096F8C39263971FF00ECE98C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 096F8C1A263971FD00ECE98C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 096F8C21263971FD00ECE98C;
+			remoteInfo = KianDigital;
+		};
+		096F8C44263971FF00ECE98C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 096F8C1A263971FD00ECE98C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 096F8C21263971FD00ECE98C;
+			remoteInfo = KianDigital;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		096F8C22263971FD00ECE98C /* KianDigital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KianDigital.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		096F8C25263971FD00ECE98C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		096F8C27263971FD00ECE98C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		096F8C29263971FD00ECE98C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		096F8C2B263971FF00ECE98C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		096F8C2E263971FF00ECE98C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		096F8C31263971FF00ECE98C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		096F8C33263971FF00ECE98C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		096F8C38263971FF00ECE98C /* KianDigitalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KianDigitalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		096F8C3C263971FF00ECE98C /* KianDigitalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KianDigitalTests.swift; sourceTree = "<group>"; };
+		096F8C3E263971FF00ECE98C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		096F8C43263971FF00ECE98C /* KianDigitalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KianDigitalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		096F8C47263971FF00ECE98C /* KianDigitalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KianDigitalUITests.swift; sourceTree = "<group>"; };
+		096F8C49263971FF00ECE98C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		096F8C1F263971FD00ECE98C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		096F8C35263971FF00ECE98C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		096F8C40263971FF00ECE98C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		096F8C19263971FD00ECE98C = {
+			isa = PBXGroup;
+			children = (
+				096F8C24263971FD00ECE98C /* KianDigital */,
+				096F8C3B263971FF00ECE98C /* KianDigitalTests */,
+				096F8C46263971FF00ECE98C /* KianDigitalUITests */,
+				096F8C23263971FD00ECE98C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		096F8C23263971FD00ECE98C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				096F8C22263971FD00ECE98C /* KianDigital.app */,
+				096F8C38263971FF00ECE98C /* KianDigitalTests.xctest */,
+				096F8C43263971FF00ECE98C /* KianDigitalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		096F8C24263971FD00ECE98C /* KianDigital */ = {
+			isa = PBXGroup;
+			children = (
+				096F8C25263971FD00ECE98C /* AppDelegate.swift */,
+				096F8C27263971FD00ECE98C /* SceneDelegate.swift */,
+				096F8C29263971FD00ECE98C /* ContentView.swift */,
+				096F8C2B263971FF00ECE98C /* Assets.xcassets */,
+				096F8C30263971FF00ECE98C /* LaunchScreen.storyboard */,
+				096F8C33263971FF00ECE98C /* Info.plist */,
+				096F8C2D263971FF00ECE98C /* Preview Content */,
+			);
+			path = KianDigital;
+			sourceTree = "<group>";
+		};
+		096F8C2D263971FF00ECE98C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				096F8C2E263971FF00ECE98C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		096F8C3B263971FF00ECE98C /* KianDigitalTests */ = {
+			isa = PBXGroup;
+			children = (
+				096F8C3C263971FF00ECE98C /* KianDigitalTests.swift */,
+				096F8C3E263971FF00ECE98C /* Info.plist */,
+			);
+			path = KianDigitalTests;
+			sourceTree = "<group>";
+		};
+		096F8C46263971FF00ECE98C /* KianDigitalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				096F8C47263971FF00ECE98C /* KianDigitalUITests.swift */,
+				096F8C49263971FF00ECE98C /* Info.plist */,
+			);
+			path = KianDigitalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		096F8C21263971FD00ECE98C /* KianDigital */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 096F8C4C263971FF00ECE98C /* Build configuration list for PBXNativeTarget "KianDigital" */;
+			buildPhases = (
+				096F8C1E263971FD00ECE98C /* Sources */,
+				096F8C1F263971FD00ECE98C /* Frameworks */,
+				096F8C20263971FD00ECE98C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KianDigital;
+			productName = KianDigital;
+			productReference = 096F8C22263971FD00ECE98C /* KianDigital.app */;
+			productType = "com.apple.product-type.application";
+		};
+		096F8C37263971FF00ECE98C /* KianDigitalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 096F8C4F263971FF00ECE98C /* Build configuration list for PBXNativeTarget "KianDigitalTests" */;
+			buildPhases = (
+				096F8C34263971FF00ECE98C /* Sources */,
+				096F8C35263971FF00ECE98C /* Frameworks */,
+				096F8C36263971FF00ECE98C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				096F8C3A263971FF00ECE98C /* PBXTargetDependency */,
+			);
+			name = KianDigitalTests;
+			productName = KianDigitalTests;
+			productReference = 096F8C38263971FF00ECE98C /* KianDigitalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		096F8C42263971FF00ECE98C /* KianDigitalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 096F8C52263971FF00ECE98C /* Build configuration list for PBXNativeTarget "KianDigitalUITests" */;
+			buildPhases = (
+				096F8C3F263971FF00ECE98C /* Sources */,
+				096F8C40263971FF00ECE98C /* Frameworks */,
+				096F8C41263971FF00ECE98C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				096F8C45263971FF00ECE98C /* PBXTargetDependency */,
+			);
+			name = KianDigitalUITests;
+			productName = KianDigitalUITests;
+			productReference = 096F8C43263971FF00ECE98C /* KianDigitalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		096F8C1A263971FD00ECE98C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					096F8C21263971FD00ECE98C = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					096F8C37263971FF00ECE98C = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 096F8C21263971FD00ECE98C;
+					};
+					096F8C42263971FF00ECE98C = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 096F8C21263971FD00ECE98C;
+					};
+				};
+			};
+			buildConfigurationList = 096F8C1D263971FD00ECE98C /* Build configuration list for PBXProject "KianDigital" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 096F8C19263971FD00ECE98C;
+			productRefGroup = 096F8C23263971FD00ECE98C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				096F8C21263971FD00ECE98C /* KianDigital */,
+				096F8C37263971FF00ECE98C /* KianDigitalTests */,
+				096F8C42263971FF00ECE98C /* KianDigitalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		096F8C20263971FD00ECE98C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096F8C32263971FF00ECE98C /* LaunchScreen.storyboard in Resources */,
+				096F8C2F263971FF00ECE98C /* Preview Assets.xcassets in Resources */,
+				096F8C2C263971FF00ECE98C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		096F8C36263971FF00ECE98C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		096F8C41263971FF00ECE98C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		096F8C1E263971FD00ECE98C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096F8C26263971FD00ECE98C /* AppDelegate.swift in Sources */,
+				096F8C28263971FD00ECE98C /* SceneDelegate.swift in Sources */,
+				096F8C2A263971FD00ECE98C /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		096F8C34263971FF00ECE98C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096F8C3D263971FF00ECE98C /* KianDigitalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		096F8C3F263971FF00ECE98C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096F8C48263971FF00ECE98C /* KianDigitalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		096F8C3A263971FF00ECE98C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 096F8C21263971FD00ECE98C /* KianDigital */;
+			targetProxy = 096F8C39263971FF00ECE98C /* PBXContainerItemProxy */;
+		};
+		096F8C45263971FF00ECE98C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 096F8C21263971FD00ECE98C /* KianDigital */;
+			targetProxy = 096F8C44263971FF00ECE98C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		096F8C30263971FF00ECE98C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				096F8C31263971FF00ECE98C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		096F8C4A263971FF00ECE98C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		096F8C4B263971FF00ECE98C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		096F8C4D263971FF00ECE98C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"KianDigital/Preview Content\"";
+				DEVELOPMENT_TEAM = 2A7E3G2ZY9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = KianDigital/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.organization.KianDigital;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		096F8C4E263971FF00ECE98C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"KianDigital/Preview Content\"";
+				DEVELOPMENT_TEAM = 2A7E3G2ZY9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = KianDigital/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.organization.KianDigital;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		096F8C50263971FF00ECE98C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2A7E3G2ZY9;
+				INFOPLIST_FILE = KianDigitalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.organization.KianDigitalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KianDigital.app/KianDigital";
+			};
+			name = Debug;
+		};
+		096F8C51263971FF00ECE98C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2A7E3G2ZY9;
+				INFOPLIST_FILE = KianDigitalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.organization.KianDigitalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KianDigital.app/KianDigital";
+			};
+			name = Release;
+		};
+		096F8C53263971FF00ECE98C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2A7E3G2ZY9;
+				INFOPLIST_FILE = KianDigitalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.organization.KianDigitalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KianDigital;
+			};
+			name = Debug;
+		};
+		096F8C54263971FF00ECE98C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2A7E3G2ZY9;
+				INFOPLIST_FILE = KianDigitalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.organization.KianDigitalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KianDigital;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		096F8C1D263971FD00ECE98C /* Build configuration list for PBXProject "KianDigital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096F8C4A263971FF00ECE98C /* Debug */,
+				096F8C4B263971FF00ECE98C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		096F8C4C263971FF00ECE98C /* Build configuration list for PBXNativeTarget "KianDigital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096F8C4D263971FF00ECE98C /* Debug */,
+				096F8C4E263971FF00ECE98C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		096F8C4F263971FF00ECE98C /* Build configuration list for PBXNativeTarget "KianDigitalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096F8C50263971FF00ECE98C /* Debug */,
+				096F8C51263971FF00ECE98C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		096F8C52263971FF00ECE98C /* Build configuration list for PBXNativeTarget "KianDigitalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096F8C53263971FF00ECE98C /* Debug */,
+				096F8C54263971FF00ECE98C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 096F8C1A263971FD00ECE98C /* Project object */;
+}
